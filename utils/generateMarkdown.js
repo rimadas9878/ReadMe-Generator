@@ -61,3 +61,28 @@ ${answers.Phone_Number}
 }
 
 module.exports = generateMarkdown;
+
+
+// Title
+// 10. Generate a ReadMe file through node.js
+
+// Description
+// This project is about creating a command-line application that generates a professional README.md file from a user's input using the Inquirer package
+
+// Installation Instructions
+// Install node js >> Add “npm i inquirer” to the terminal to add all the packages 
+  
+// Usage Information
+// Open terminal >> Make sure that you are in the proper folder >> enter “node index.js” and hit enter >> Answer all the question that are displayed in the terminal >> If the “Successful” message is displayed then that means ReadMe file is generated
+
+// Contribution Guidelines
+// Used inquirer package for questions to be displayed in the terminal and fs package to create a file, answers of all the questions are displayed from the generateMarkdown.js file
+
+// Test Instructions
+// Navigate to an appropriate folder >> enter node index.js >> Answer all the questions displayed >> Once a successful message is displayed that means that readme file is generated >> Open the ReadMe file and then Open Preview
+
+
+// https://github.com/rimadas9878/ReadMe-Generator
+
+// rimadas9878@gmail.com
+// 85738273

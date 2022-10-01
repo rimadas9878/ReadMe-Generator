@@ -28,12 +28,12 @@ inquirer.prompt([{
     type: 'list',
     name: 'License_details',
     message: 'Select the required License',
-    choices: ['Apache', 'Boost', 'BSD-3', 'BSD 2-Clause License']
+    choices: ['Apache', 'Boost', 'BSD-3']
 },
 {
-    type: 'rawlist',
-    name: 'Usage_Information',
-    message: 'Enter the instructions for Usage of the software'
+    type: 'input',
+    name: 'Contribution_Guidelines',
+    message: 'Enter the contribution Guidelines'
 },
 {
     type: 'input',
