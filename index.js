@@ -1,23 +1,22 @@
-// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs')
-
-// TODO: Create an array of questions for user input
+const generateMarkdown = require('./utils/generateMarkdown')
 
 inquirer.prompt([{
     type: 'input',
     name: 'project_title',
-    message: 'Enter the title of the project'
+    message: 'Enter the title of the project.'
 },
 {
     type: 'input',
     name: 'Description',
-    message: 'Enter the project description'
+    message: 'Enter the project description.'
 },
 {
     type: 'input',
     name: 'Installation_Instruction',
     message: 'Enter the instructions for Installating the software'
+    
 },
 {
     type: 'input',
@@ -25,10 +24,11 @@ inquirer.prompt([{
     message: 'Enter the instructions for Usage of the software'
 },
 {
+    //https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
     type: 'list',
     name: 'License_details',
     message: 'Select the required License',
-    choices: ['Public Domain License', 'Permissive License', 'Restrictive Licenses', 'LGPL']
+    choices: ['Apache', 'Boost', 'BSD-3', 'BSD 2-Clause License']
 },
 {
     type: 'rawlist',
@@ -57,58 +57,7 @@ inquirer.prompt([{
 }
 ])
 .then((answers) => {
-    fs.writeFile('README.md', 
-    `# ${answers.project_title}
-    
-    
-    ## Description
-    ${answers.Description}
-    
-    
-    ## Table of Contents
-    
-    - [Installation Instructions](#Installation-Instructions)
-    - [Usage Information](#Usage-Information)
-    - [License](#License)
-    - [Contribution Guidelines](#Contribution-Guidelines)
-    - [Test Instructions](#Test-Instructions)
-    
-    ## Installation Instructions
-    ${answers.Installation_Instruction}
-    
-    ## Usage Information
-    ${answers.Usage_Information}
-    
-    ## License
-    ${answers.License_details}
-    
-    ## Contribution Guidelines
-    ${answers.Usage_Information}
-    
-    ## Test Instructions
-    ${answers.Test_Information}
-
-    ## Questions
-    ## Github URL
-    ${answers.Github_Url}
-    
-    ## For additional questions reach me at
-    ${answers.Email_address}    
-    ${answers.Phone_Number} 
-    `
-    , (err) => 
+    fs.writeFile('README.md', generateMarkdown(answers) , (err) =>
     err ? console.log(err) : console.log('Successfully created ReadMe File')
-    );
-})
-
-
-
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
+        );
+    })
