@@ -12,19 +12,19 @@
 - [Test Instructions](#test-instructions)
       
 ## Installation Instructions 
-Install node js >> Add “npm i inquirer” to the terminal to add all the packages
+Install node js >> Add “npm i inquirer” to the terminal to add all the packages
 
 ## Usage Information
-Open terminal >> Make sure that you are in the proper folder >> enter “node index.js” and hit enter >> Answer all the question that are displayed in the terminal >> If the “Successful” message is displayed then that means ReadMe file is generated
+Open terminal >> Make sure that you are in the proper folder >> enter “node index.js” and hit enter >> Answer all the question that are displayed in the terminal >> If the “Successful” message is displayed then that means ReadMe file is generated
 
 ## License
 [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 ## Contribution Guidelines
-Open terminal >> Make sure that you are in the proper folder >> enter “node index.js” and hit enter >> Answer all the question that are displayed in the terminal >> If the “Successful” message is displayed then that means ReadMe file is generated
+Open terminal >> Make sure that you are in the proper folder >> enter “node index.js” and hit enter >> Answer all the question that are displayed in the terminal >> If the “Successful” message is displayed then that means ReadMe file is generated
 
 ## Test Instructions
- Navigate to an appropriate folder >> enter node index.js >> Answer all the questions displayed >> Once a successful message is displayed that means that readme file is generated >> Open the ReadMe file and then Open Preview
+Navigate to an appropriate folder >> enter node index.js >> Answer all the questions displayed >> Once a successful message is displayed that means that readme file is generated >> Open the ReadMe file and then Open Preview
   
 ## Questions
 ## Github URL
