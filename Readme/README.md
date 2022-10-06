@@ -27,5 +27,4 @@ It has to take input from the user through terminal and add to the ReadMe file
 https://github.com/rimadas9878/ReadMe-Generator
 
 ## Link of the Walkthrough Video
-<iframe src="https://drive.google.com/file/d/1YfXHdHOMPIZjHSmno_M-MMr9B03eBTSj/preview" width="640" height="480">Assignment10-WalkthroughFile</iframe>
-<a href="./Video/Assignment10-GenerateReadMe.webm">Assignment10-WalkthroughFile</a>
+<a href="https://drive.google.com/file/d/1YfXHdHOMPIZjHSmno_M-MMr9B03eBTSj/preview">Assignment10-WalkthroughFile</a>
