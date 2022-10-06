@@ -21,6 +21,7 @@ It has to take input from the user through terminal and add to the ReadMe file
 
 
 ## Link To GitHub
-
+https://github.com/rimadas9878/ReadMe-Generator
 
 ## Link of the Walkthrough Video
+[Video Link](/Video/Assignment10-GenerateReadMe.webm)
