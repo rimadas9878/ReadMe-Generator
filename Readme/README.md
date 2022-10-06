@@ -18,10 +18,13 @@ It has to take input from the user through terminal and add to the ReadMe file
     -  Github_Url
     -  Email_address
     -  Phone_Number
-
+- README file will be generated
+- Open the file in Preview
+- The table content will display the contents in the file and when clicked on the link it will navigate to that section
+- Also, view that the Project Title, Description, Installation Instruction, Usage Information, License details, Contribution Guidelines, Test Information, Github Url, and Contact details is as per the details entered in the terminal.
 
 ## Link To GitHub
 https://github.com/rimadas9878/ReadMe-Generator
 
 ## Link of the Walkthrough Video
-[Video Link](/Video/Assignment10-GenerateReadMe.webm)
+<a href="./Video/Assignment10-GenerateReadMe.webm">Assignment10-WalkthroughFile</a>
